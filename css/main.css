@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: san-serif;
+    background: linear-gradient(white, green);
+}
+
+nav {
+	width: 100%;
+	background: #9aed42;
+	height: 64px;
+}
+
+ul {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+ul li:hover {
+	background: #10840a;
+	text-decoration: none;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+.search {
+	float: right;
+	padding-top: 15px;
+}
+
+.input-group.md-form.form-sm.form-2 input.lime-border  {
+    border: 1px solid #cddc39;
+    border-radius: 5px;
+}
+
+.toggle {
+	width: 100%;
+	padding: 10px 20px;
+	text-align: right;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+
+.container {
+	margin-top: 40px;
+}
+
+.tree{
+	float: right;
+}
+
+.intro-h1 {
+	text-align: center;
+}
+
+/*About, News, Services Sections*/
+.container2 {
+	margin-top: 60px;
+	margin-left: 80px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.container2 .row {
+
+}
+
+.container2 .row .col-sm {
+	background-color: #fffff0;
+	border-style: solid;
+	border-color: black;
+	margin-right: 20px;
+}
+
+@media (max-width: 668px){
+	.toggle {
+		display: block;
+	}
+
+	ul {
+		width: 100%;
+		display: none;
+	}
+
+	ul li {
+		display: block;
+		text-align: center;
+	}
+
+	.active {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
